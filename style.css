@@ -1,0 +1,360 @@
+@charset "utf-8";
+
+/*Reset*/
+*{
+    margin:0;
+	padding:0;
+	box-sizing:border-box;
+	
+}
+
+*::selection{
+color:Black;
+background-color:green;
+}
+
+/*Style*/
+html {
+    scroll-behavior: smooth;
+}
+body{
+	background-color:#1C1C1C;
+	  
+}
+.back1{
+	padding:10px;
+	margin:10px;
+background-image:url("https://static.vecteezy.com/system/resources/previews/002/202/047/original/blue-high-tech-futuristic-cyberspace-technology-background-free-vector.jpg");
+
+}
+
+
+	.main-header{	
+	background-color:#3B9427;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 10px;
+	height:60px;
+}
+
+.main-header h1 {
+    margin: 0;
+    font-size:20px;
+	
+}
+
+.main-header .menu{
+    display: flex;
+    gap:15px;
+    font-size:17px;
+}
+
+.main-header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li a {
+    color: #ffff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header nav ul li a:hover {
+    background-color: 	#2F7D1E;
+    border-radius:50px;
+}
+
+label{
+	font-size:20px;
+	color:white;
+	
+}
+
+input{
+	caret-color:green;
+	border-radius:50px;
+	height:40px;
+	color:green;
+	font-size:16px;
+	text-align:center;
+	
+}
+
+.btn{
+	background:linear-gradient(to bottom, #4aff7a 5%, #23850d 100%);
+	border-radius:33px;
+	border:1px solid #18ab29;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-style:italic;
+	padding:15px 47px;
+	text-decoration:none;
+	text-shadow:11px 8px 5px #2fad1c;
+	 display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+   -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+
+}
+.btn:hover {
+	background-color:#5cbf2a;
+-webkit-transform: scale(1.1) rotate(4deg);
+  transform: scale(1.1) rotate(4deg);
+}
+.btn:focus{
+box-shadow: 18px 8px 20px -1px #3dc21b;
+}
+
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+.div1{
+color:white;
+display:flex;
+flex-direction:row;	
+}
+
+
+
+h2{
+ 
+	font-family:monospace;
+  color:white;
+	font-size:25px;
+	border-right:4px solid;
+	width:53ch;
+	white-space:nowrap;
+  overflow: hidden;
+-webkit-text-stroke-width: 1px;
+ -webkit-text-stroke-color: rgb(107, 240, 107);
+	animation:typing 15s steps(53),blinking 0.5s infinite step-end alternate;
+
+	
+}
+/*typing*/
+@keyframes typing{
+	from{
+		width:0;
+	
+		
+		
+	}
+		
+}
+/*blinking*/
+@keyframes blinking{
+50%{
+border-color:transparent;
+}	
+	
+}
+
+.imagem{
+ 
+  margin-bottom:20px;
+  width:400px;
+  height:300px;
+  border-radius:20px;
+}
+figure{
+  font-size:30px;
+  color:white;
+  text-align:center;
+}
+figcaption{
+    font-size:21px;
+    color:white;
+-webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+}
+
+h3{
+	font-family:monospace;
+  color:white;
+	font-size:25px;
+	border-right:4px solid;
+	-webkit-text-stroke-width: 1px;
+ -webkit-text-stroke-color: rgb(107, 240, 107);
+	
+
+}
+
+.txt1{
+	text-align:center;
+	font-size:20px;
+	color:white;
+	padding:20px;
+	
+        font-family: Helvetica;
+}
+
+
+.txt2{
+	text-align:center;
+	font-size:20px;
+	color:white;
+	    font-family: Helvetica;
+}
+
+.txt-op{
+	text-align:center;
+	font-size:20px;
+	color:white;
+	  -webkit-text-stroke-width: 0.9px;
+    -webkit-text-stroke-color: blue;
+	    font-family: Helvetica;
+}
+
+mark{
+	background-color:Green;
+	color:black;
+	
+}
+
+.fontes{
+	text-align:center;
+	font-size:20px;
+	color:white;
+}
+
+footer{
+	background-image:url("https://www.springboard.com/blog/wp-content/uploads/2022/09/programmng-language.jpg");
+	color:white;
+	text-align:center;
+	width:100%;
+	border-radius:50px;
+	
+}
+
+footer .gity{
+	transition:.5s;
+	color:Black;
+	text-decoration:none;
+	
+}
+
+.gity:hover{
+	color:Purple;
+}
+@media screen and (max-width: 480px) {
+		.main-header{	background-color:#3B9427;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 5px;
+	height:5px;
+}
+
+.main-header h1 {
+    margin: 0;
+    font-size:10px;
+}
+
+.main-header .menu{
+    display: flex;
+    gap:15px;
+    font-size:12px;
+}
+
+.main-header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+header nav ul li a:hover {
+    background-color: 	#2F7D1E;
+    border-radius:50px;
+}
+
+
+
+h2{
+ display:flex;
+ justify-content:CENTER;
+	font-family:monospace;
+  color:white;
+	font-size:2px;
+-webkit-text-stroke-width: 1px;
+ -webkit-text-stroke-color: rgb(107, 240, 107);
+
+
+	
+}
+.imagem{
+ 
+  margin-bottom:20px;
+  width:300px;
+  height:200px;
+  border-radius:20px;
+}
+figure{
+  font-size:15px;
+  color:white;
+  text-align:center;
+}
+figcaption{
+    font-size:19px;
+    color:white;
+-webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+}
+
+h3{
+	font-family:monospace;
+  color:white;
+	font-size:25px;
+	border-right:4px solid;
+	-webkit-text-stroke-width: 1px;
+ -webkit-text-stroke-color: rgb(107, 240, 107);
+	
+
+}
+
+.txt1{
+	margin-left:9px;
+	text-align:center;
+	font-size:10px;
+	color:white;
+}
+
+
+.txt2{
+	margin-left:9px;
+	text-align:center;
+	font-size:10px;
+	color:white;
+}
+
+.txt-op{
+	margin-left:9px;
+	text-align:center;
+	font-size:9px;
+	color:white;
+}
+	
+	
+	
+}
